@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: SAINI TXT DIRECT 
+    name: JOSIM TXT DIRECT 
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/nikhilsainiop/Saini-txt-direct
+    repo: https://github.com/akashjs/Josim-txt-direct
     branch: main
     autoDeploy: false
     envVars:
